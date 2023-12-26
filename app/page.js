@@ -5,10 +5,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative w-screen max-w-[1440px] min-h-screen bg-blue-50 px-5 lg:px-20">
-      <div className="relative w-full flex flex-col gap-14 h-fit m-0 py-12">
+    <main className="relative w-screen max-w-[1440px] min-h-screen bg-blue-50 px-5 md:px-12 lg:px-20">
+      <div className="relative w-full flex flex-col gap-14 h-fit m-0 py-6 lg:py-12">
         <Image src={logo} height={80} alt="logo-image.png" /> 
-        <h1 className="font-poppins font-semibold text-3xl lg:text-7xl text-blue-500 uppercase tracking-wider">
+        <h1 className="font-poppins font-semibold text-3xl md:text-5xl lg:text-7xl md:max-w-[800px] lg:max-w-none text-blue-500 uppercase tracking-wider">
           Unlocking the Power of Premium Names for Your Pharmaceutical Ventures
         </h1>
       </div>
@@ -22,7 +22,7 @@ export default function Home() {
             />
           ))}
         </div>
-        <div className="h-fit flex flex-1 w-full lg:max-w-[365px]">
+        <div className="h-fit flex flex-1 w-full md:max-w-[500px] lg:max-w-[365px]">
           <p className="relative font-poppins text-blue-600 text-sm lg:text-base tracking-wider">
             Explore our curated collection of premium domain names meticulously
             selected to elevate your pharma brand. Each domain is a unique
