@@ -10,7 +10,7 @@ const ProductCard = (props) => {
       <div className=" relative h-[100px] w-[250px] overflow-hidden flex justify-center items-center">
         <Image src={image} height={100} alt="product-image" />
       </div>
-      <div className="flex justify-center items-center w-full h-10 bg-blue-400 font-poppins text-base font-light tracking-widest text-white">
+      <div className="flex justify-center items-center w-full h-10 bg-blue-400 font-poppins text-base font-light tracking-widest text-white uppercase">
         {title}
       </div>
     </a>

@@ -1,3 +1,4 @@
-import titleImage from './title-image.png';
+import titleImage from "./title-image.png";
+import logo from "./namepharm-logo.png";
 
-export {titleImage}
+export { titleImage, logo };
