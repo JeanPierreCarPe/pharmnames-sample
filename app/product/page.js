@@ -5,9 +5,9 @@ import Image from "next/image";
 const page = () => {
   return (
     <section className="w-screen h-screen bg-white flex flex-col lg:flex-row">
-      <div className="w-full lg:w-2/4 h-fit lg:h-screen relative flex flex-col p-5 md:p-10 lg:p-16 lg:gap-10">
+      <div className="w-full lg:w-2/4 h-fit lg:h-screen relative flex flex-col justify-center p-5 md:p-10 lg:p-16 lg:gap-10 pt-[70px] lg:pt-[90px]">
         <ReturnButton />
-        <div className="relative h-full flex flex-col justify-between">
+        <div className="relative h-fit flex flex-col gap-5 lg:gap-10">
           <div className="relative h-[200px] lg:h-[300px] w-full overflow-hidden flex justify-center items-center">
             <Image src={logo1} height={300} alt="product-image" />
           </div>
@@ -19,7 +19,7 @@ const page = () => {
           </a>
         </div>
       </div>
-      <div className="w-full lg:w-2/4 h-fit lg:h-screen bg-blue-800 flex flex-col px-5 py-10 md:p-10 lg:p-16 gap-12">
+      <div className="w-full lg:w-2/4 h-fit lg:h-screen bg-blue-800 flex flex-col justify-center px-5 py-10 md:p-10 lg:p-16 gap-12 pt-[70px] lg:pt-[90px]">
         <div className="relative flex flex-col gap-3">
           <h5 className="font-poppins text-white text-xl font-semibold">
             DOMAIN NAME

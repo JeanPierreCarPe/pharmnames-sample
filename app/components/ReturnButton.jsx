@@ -2,7 +2,7 @@ import React from 'react'
 
 const ReturnButton = () => {
   return (
-    <a href='\' className='font-poppins font-normal text-blue-500'>Return to home</a>
+    <a href='\' className='font-poppins font-normal text-blue-500 w-fit'>Return to home</a>
   )
 }
 

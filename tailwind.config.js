@@ -11,6 +11,7 @@ module.exports = {
         white: "#FBFBFB"
       },
       backgroundImage: {
+        header: "url('/assets/images/bg-header.jpg')",
       },
       fontFamily: {
         bebas: ["var(--font-bebas"],
